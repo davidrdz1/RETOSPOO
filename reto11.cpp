@@ -10,24 +10,18 @@ using namespace std;
 
 int solution(int A, int B, int K)
 {
-//paso2
 int cont=0;
-//paso3
  for(int i = A; i <= B; i++)
  {
-        //Paso 3.1
         if(i%K == 0)
         {
-        //Paso 3.1.1- Contador aumenta
          cont = cont+1;
         }
     }
-    //paso 4
     return cont;
 }
 int main()
 {
-    //paso 1
     int A,B,K;
     cout<<"valor de A"<<endl;
     cin>>A;
